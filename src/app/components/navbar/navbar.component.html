@@ -1,0 +1,47 @@
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container">
+      <a class="navbar-brand d-md-none" href="#">
+          <img src="./assets/nan.png" width="30" height="30" alt="">
+      </a>
+
+    <button class="navbar-toggler d-lg-none" type="button" (click)="isCollapsed = !isCollapsed"
+    [attr.aria-expanded]="!isCollapsed">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+    <div id="collapseBasic" [collapse]="!isCollapsed">
+      <div class="row"> 
+      <ul class="nav justify-content-left">
+          <li class="nav-item col-xs-12 col-md-12 text-center">
+              <a class="nav-link active" href="#">Active link</a>
+          </li>
+          <li class="nav-item col-xs-12 col-md-12 text-center">
+              <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item col-xs-12 col-md-12 text-center">
+              <a class="nav-link" href="#">Disabled link</a>
+          </li>
+      </ul>
+
+      <a class="navbar-brand d-none d-md-block" href="#">
+          <img src="./assets/nan.png" width="30" height="30" alt="">
+        </a>
+
+      <ul class="nav justify-content-end">
+          <li class="nav-item col-xs-12 col-md-12 text-center">
+              <a class="nav-link" href="#">Active link</a>
+          </li>
+          <li class="nav-item col-xs-12 col-md-12 text-center">
+              <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item col-xs-12 col-md-12 text-center">
+              <a class="nav-link" href="#">Disabled link</a>
+          </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</nav>

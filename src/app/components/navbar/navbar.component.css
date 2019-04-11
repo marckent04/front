@@ -1,0 +1,8 @@
+
+
+@media (min-width: 992px)  {
+    #collapsibleNavId {
+        display: flex;
+        justify-content: space-around;
+    }
+ }

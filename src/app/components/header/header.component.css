@@ -1,0 +1,16 @@
+header {
+    position: relative;
+    height: 500px;
+    background: url('../../../assets/bgHeader.jpeg');
+    background-size: cover;
+}
+
+.hTitle {
+    color: red;
+    padding: 40px;
+    margin-top: 30px;
+    border: #9351c9 5px solid;
+    /* width: 40%; */
+    text-shadow: 0px 0px  10px #9351c9;
+    background:rgba(000, 000, 000, 0.3);
+}
